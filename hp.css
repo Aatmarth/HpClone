@@ -1,0 +1,468 @@
+@font-face {
+  font-family: "Forma DJR Micro";
+  src: url("forma-djr-micro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+}
+.firstheader {
+  align-items: center;
+  width: 100%;
+  height: 34px;
+  background-color: #f5f5f5;
+  justify-content: center;
+  padding-top: 4.9px;
+}
+.small3images {
+  padding-left: 10%;
+}
+
+.zhp {
+  margin-left: 5px;
+  width: 3.1%;
+  height: auto;
+}
+.omen {
+  margin-left: 26px;
+  width: 6.1%;
+  height: auto;
+}
+.poly {
+  margin-left: 26px;
+  width: 3.9%;
+  height: auto;
+}
+.secondheader {
+  background-color: none;
+  display: flex;
+  width: 100%;
+  height: 101px;
+}
+.hp1logo {
+  margin-left: 150px;
+  width: 48px;
+  height: auto;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.Backgroundpicture {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  align-items: center;
+  display: flex;
+  transform: scale(1.2);
+  margin-top: 26px;
+}
+.explore {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  margin-left: 60px;
+}
+.explore button {
+  border: none;
+  background-color: transparent;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #878687;
+}
+.shop {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  margin-left: 25px;
+}
+.shop button {
+  border: none;
+  background-color: transparent;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #878687;
+}
+.support {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  margin-left: 25px;
+}
+.support button {
+  border: none;
+  background-color: transparent;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #878687;
+}
+button {
+  cursor: pointer;
+}
+.input1 {
+  margin-left: 235px;
+  width: 400px;
+  height: 35px;
+  font-size: medium;
+  margin-top: 15px;
+  border-color: #878687;
+  align-items: center;
+  border-left-color: #ffffff;
+  border-top-color: #ffffff;
+  padding-left: 25px;
+  display: flex;
+}
+.searchlogo {
+  position: relative;
+  bottom: 36px;
+  left: 39em;
+}
+.cartlogo {
+  width: 60px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.cartlogo img {
+  width: 60%;
+  height: auto;
+}
+.signin {
+  margin-top: 25px;
+}
+.signin button {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 93px;
+  height: 33px;
+  font-size: 16px;
+  font-weight: 525;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+}
+.bgimgcontainer {
+  position: relative;
+  height: 35.3em;
+}
+.ftext {
+  color: white;
+  border: 1px white solid;
+  width: 100%;
+  height: 10rem;
+  padding-left: 11%;
+  font-size: 63px;
+  position: absolute;
+  top: 39%;
+  left: 10%;
+  transform: translate(-10%, -10%);
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 1.3em;
+}
+.stext {
+  width: 100%;
+  height: 30vh;
+  font-size: 33px;
+  text-align: center;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  display: flex;
+  padding-left: 9.5rem;
+  color: #ffffff;
+  align-items: start;
+  position: relative;
+  z-index: 5;
+  top: -4rem;
+  padding-top: 1rem;
+}
+.learn {
+  position: absolute;
+  top: 32.5em;
+  left: 9.5rem;
+}
+.learn button {
+  color: black;
+  background-color: white;
+  border: none;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  width: 75px;
+  height: 30px;
+}
+.heythere {
+  margin-left: 10rem;
+  font-size: 45px;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  margin-top: 3rem;
+}
+.heythere::after {
+  content: "";
+  display: block;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-left: -10rem;
+  width: 120%;
+}
+.help {
+  margin-left: 10rem;
+  font-size: xx-large;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  margin-top: 10px;
+}
+.products {
+  display: flex;
+  margin-top: 2.5rem;
+}
+.printers img {
+  margin-left: 10rem;
+  width: 385.99px;
+  height: 368.1px;
+  border: 1px solid black;
+}
+.keyboard img {
+  width: 385.99px;
+  height: 368.1px;
+  border: 1px solid black;
+  margin-left: 1.75rem;
+}
+.camera img {
+  width: 385.99px;
+  height: 368.1px;
+  border: 1px solid black;
+  margin-left: 1.75rem;
+}
+.fprint {
+  height: 55px;
+  background-color: #212237;
+  color: white;
+  font-size: 28px;
+  margin-left: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  margin-top: -4px;
+}
+.fkboard {
+  height: 55px;
+  background-color: #212237;
+  color: white;
+  font-size: 28px;
+  margin-left: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  margin-top: -4px;
+}
+.fcam {
+  height: 55px;
+  background-color: #212237;
+  color: white;
+  font-size: 28px;
+  margin-left: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  margin-top: -4px;
+}
+.hwss {
+  display: flex;
+}
+.workspaceimg {
+  margin-left: 10rem;
+  margin-top: 4rem;
+}
+.workspaceimg img {
+  width: 717px;
+  height: 427.56;
+}
+.wstext {
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+
+  margin-top: 4rem;
+  margin-left: 2rem;
+  position: relative;
+}
+.ptag {
+  font-size: 48px;
+}
+.ptag::after {
+  content: "";
+  display: block;
+  border-top: 1px solid black;
+  width: 104%;
+  margin-top: 0.5rem;
+}
+.wstext2 {
+  margin-top: 5px;
+  font-size: 22px;
+}
+.learn2 button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  width: 105px;
+  height: 45px;
+  margin-top: 2em;
+  font-size: 16px;
+}
+.footer{
+  color: white;
+  margin-top: 2.5rem;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+}
+.footer1 {
+  background-color: black;
+  display: flex;
+  width: 100%;
+}
+.footer1a {
+  color: #ffffff;
+  width: 1160.99px;
+  height: 105px;
+  font-size: 27px;
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 6.5rem;
+}
+.footer1b {
+  display: flex;
+  align-items: center;
+}
+.footer1b button {
+  background-color: white;
+  color: black;
+  border: none;
+  width: 103.64px;
+  height: 43px;
+  font-size: medium;
+}
+.footer2{
+  width: 100%;
+  display: block;
+  background-color: black;
+  height: 35px;
+  margin-top: 2px;
+  display: flex;
+  padding-top: 1.25rem;
+}
+.indiaicon{
+  margin-left: 1em;
+  width: 17px;
+  height: 16.8px;
+}
+.india{
+  margin-left: 1em;
+}
+.country{
+  margin-left: 10rem;
+  font-size: small;
+}
+.f2content{
+  display: flex;
+}
+.footer2::after{
+  content: " ";
+    width: 100%;
+    position: absolute;
+    border-top: 1px solid rgb(255, 255, 255);
+    top: 127.5rem;
+    margin-left: 10rem;
+    width: 75rem;
+    margin-top: 0.25rem;
+}
+.footer3{
+  font-family: "Forma DJR Micro", Arial, sans-serif;
+  font-size: small;
+  padding-top: 1.25rem;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.secA{
+  margin-left: 10rem;
+}
+.ba{
+  padding-top: 1rem;
+  line-height: 1.75;
+}
+.secB{
+  margin-left: 6rem;
+}
+.bb{
+  padding-top: 1rem;
+  line-height: 1.75;
+}
+.secC{
+  margin-left: 4rem;
+}
+.bc{
+  padding-top: 1rem;
+  line-height: 1.75;
+}
+.secD{
+  margin-left: 4rem;
+}
+.bd{
+  padding-top: 1rem;
+  line-height: 1.75;
+}
+.secE{
+  margin-left: 5rem;
+}
+.be{
+  width: 125px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.be1{
+width: 20%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 8px;
+}
+
+.be1 svg{
+  width: 80%;
+}
+.footer3::after{
+  content: " ";
+    width: 100%;
+    position: absolute;
+    border-top: 1px solid rgb(255, 255, 255);
+    top: 143rem;
+    margin-left: 10rem;
+    width: 75rem;
+    margin-top: 0.25rem;
+}
+.footer4{
+  background-color: black;
+  height: 10rem;
+  font-size: 13px;
+
+}
+.privacy{
+  padding-top: 3.5rem;
+  padding-left: 7.5rem;
+}
+.copyright{
+  margin-left: 10rem;
+  margin-top: 2.2rem;
+}
